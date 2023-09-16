@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScriptの学習</title>
+</head>
+
+
+<body>
+    <input onblur="func1()"><br>
+    <input id="btn1"><br>
+
+    <input onfocus="func2()"><br>
+    <input id="btn2"><br>
+
+    <input placeholder="文字を入力してください" onchange="func3()"><br>
+    <input id="btn3" placeholder="文字を入力してください"><br>
+
+    <input value="選択してください" onselect="func4()"><br>
+    <input id="btn4" value="選択してください"><br>
+
+    <form onsubmit="func5()">
+        <input type="text" placeholder="実行を押してください">
+        <button type="submit">実行</button>
+    </form>
+    <form id="btn5">
+        <input type="text" placeholder="実行を押してください">
+        <button type="submit">実行</button>
+    </form>
+
+    <form onreset="func6()">
+      <input type="text" placeholder="リセットを押してください">
+      <button type="reset">リセット</button>
+    </form>
+    <form id="btn6">
+      <input type="text" placeholder="リセットを押してください">
+      <button type="reset">リセット</button>
+    </form>
+
+    <img src="download.jpg" onload="func7()"><br>
+    <img src="download.jpg" id="img1"><br>
+
+    <a href="#" onclick="func8()">クリックしてください</a><br>
+    <a href="#" id="test1">クリックしてください</a><br>
+
+    <input type="button" value="button" ondblclick="func9()"><br>
+    <input type="button" value="button" id="btn7"><br>
+
+    <input type="text" onkeyup="func10()"><br>
+    <input type="text" id="btn8"><br>
+
+    <input type="text" onkeydown="func11()"><br>
+    <input type="text" id="btn9"><br>
+
+    <button onkeypress="func12()">Enterを押してください</button><br>
+    <button id="btn10">Enterを押してください</button><br>
+
+    <img src="download.jpg" onmouseout="func13()"><br>
+    <img src="download.jpg" id="img2"><br>
+
+    <img src="download.jpg" onmouseover="func14()"><br>
+    <img src="download.jpg" id="img3"><br>
+
+    <input type="button" value="button" onmouseup="func15()"><br>
+    <input type="button" value="button" id="btn11"><br>
+
+    <input type="button" value="button" onmousedown="func16()"><br>
+    <input type="button" value="button" id="btn12"><br>
+
+    <img src="download.jpg" onmousemove="func17()" id="img4"><br>
+    <img src="download.jpg" id="img5"><br>
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,42 @@
+let num = '13';
+
+switch (num) {
+    case'1':
+        console.log('子');
+        break;
+    case'2':
+        console.log('丑')
+        break;
+    case'3':
+        console.log('寅');
+        break;
+    case'4':
+        console.log('卯');
+        break;
+    case'5':
+        console.log('辰');
+        break;
+    case'6':
+        console.log('巳');
+        break;
+    case'7':
+        console.log('午');
+        break;
+    case'8':
+        console.log('未');
+        break;
+    case'9':
+        console.log('申');
+        break;
+    case'10':
+        console.log('酉');
+        break;
+    case'11':
+        console.log('戌');
+        break;
+    case'12':
+        console.log('亥');
+        break;
+    default:
+        console.log('値が無効です');
+}
